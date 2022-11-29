@@ -1,0 +1,40 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Candara, sans-serif;
+  text-transform: uppercase;
+  background-color: #d0ecd9;
+  margin: 5em;
+}
+
+/* link styles */
+a:link, a:visited { color: #065c0b; }
+a:focus, a:hover, a:active { color: #422104; }
+
+a {
+	 text-decoration: underline;     
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+p {
+    font-size: 1em;
+  }
+
+
+
+
+	
+
