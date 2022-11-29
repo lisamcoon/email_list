@@ -33,7 +33,7 @@ a {
 /* header styles */
 header {
   color: white;
-  background: url('dogs.jpg') no-repeat center center;
+  background: url(dogs.jpg) no-repeat center center;
   /*Photograph by Adyna Public Domain via https://www.freeimages.com/photo/dogs-1403621 */
   background-size: cover;
   background-color: #009999;
