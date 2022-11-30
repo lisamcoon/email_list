@@ -62,6 +62,7 @@ a.button.close{
 }
 
 .modalContent {
+    display: flex;
     background-color: #ffff99;
     border: 4mm groove #c7971e;
     position: fixed;
