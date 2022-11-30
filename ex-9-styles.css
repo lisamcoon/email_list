@@ -65,9 +65,9 @@ a.button.close{
     display: flex;
     background-color: #ffff99;
     border: 4mm groove #c7971e;
-    position: fixed;
+    position: relative;
     top:50%;
-    left: 20%;
+    left: 30%;
     width: 20%;
     height: 8em;
     visibility: hidden;
