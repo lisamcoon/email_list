@@ -67,8 +67,8 @@ a.button.close{
     border: 4mm groove #c7971e;
     position: fixed;
     top:50%;
-    left: 45%;
-    width: 45%;
+    left: 20%;
+    width: 20%;
     height: 8em;
     visibility: hidden;
     opacity: 1;
