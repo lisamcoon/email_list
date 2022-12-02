@@ -8,7 +8,7 @@ html {
 body {
   background-image: url("background-email-marketing-design-2635600.jpg");
   /*https://www.freeimages.com/photo/email-marketing-design-2635600 */
-  background-color: rgba(12, 144, 119, 0.8);
+  background-color: rgba(12, 144, 119);
   margin-top: 10%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,6 +28,7 @@ h4 {
   font-weight: 700;
 }
 section {
+  display: block;
   margin: auto;
   max-width: 600px;
   min-height: 400px;
