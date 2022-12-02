@@ -1,15 +1,12 @@
-/* type selectors */
-article,
-aside,
-figure,
-footer,
-header,
-nav,
-section {
-  display: block;
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
 }
 body {
-  background-image: url("../images/background-email-marketing-design-2635600.jpg");
+  background-image: url("background-email-marketing-design-2635600.jpg");
   /*https://www.freeimages.com/photo/email-marketing-design-2635600 */
   background-color: rgba(12, 144, 119, 0.8);
   margin-top: 10%;
@@ -94,11 +91,8 @@ dm {
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    background-image: none;
-  }
   label {
-    justify-content: center;
+    float: left;
     width: 11em;
     text-align: left;
     font-weight: bold;
@@ -107,12 +101,12 @@ dm {
   input {
     width: 12em;
   }
+  body {
+    background-image: none;
+    background-color: rgba(12, 144, 119, 0.8);
+  }
 
   section {
-    margin: auto;
-    width: auto;
-    padding: 10px;
-    background-color: rgba(12, 144, 119, 0.8);
-    border-radius: 5px;
+    border-radius: 0px;
   }
 }
