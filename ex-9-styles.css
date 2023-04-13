@@ -33,7 +33,7 @@ a {
 /* header styles */
 header {
   color: white;
-  background: url(dogs.jpg) no-repeat center center;
+  background: url(../images/dogs.jpg) no-repeat center center;
   /*Photograph by Adyna Public Domain via https://www.freeimages.com/photo/dogs-1403621 */
   background-size: cover;
   background-color: #009999;
@@ -53,10 +53,9 @@ a.button{
     text-align: center;
 }
 
-
-
 a.button.close{
-    position: static;    
+    position: static;
+   
 }
 
 .modalContent {
@@ -65,7 +64,7 @@ a.button.close{
     position: relative;
     text-align: center;
     top:50%;
-    left: auto;
+    left: auto
     width: 30%;
     height: 8em;
     visibility: hidden;
@@ -73,7 +72,6 @@ a.button.close{
 }
 
 .modalContent.active {
-    display: flex;
     visibility: visible;
 }
 
@@ -81,7 +79,6 @@ footer {
   font-family: Candara, sans-serif;
   background-color: #009999;
 }
-
 
 /* main "products" styles */
 main {
@@ -121,7 +118,7 @@ p.cite {
 }
 main img {
   float: left;
-  margin: 0 1em 1em 0;
+ 
 }
 
 /* aside styles */
@@ -190,6 +187,18 @@ footer {
     border-radius: 25px;
     margin: 2.5%;
   }
+  .modalContent {
+    background-color: #ffff99;
+    border: 4mm groove #c7971e;
+    position: fixed;
+    text-align: center;
+    top:40%;
+   
+    width: 70%;
+    
+    visibility: hidden;
+    opacity: 1;
+}
 }
 
 @media screen and (min-width: 940px) {
