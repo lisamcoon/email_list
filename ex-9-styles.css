@@ -64,7 +64,7 @@ a.button.close{
     position: relative;
     text-align: center;
     top:50%;
-    left: auto
+    left: auto;
     width: 30%;
     height: 8em;
     visibility: hidden;
