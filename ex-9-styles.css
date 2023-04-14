@@ -13,23 +13,6 @@ body {
   margin: 0;
 }
 
-/* link styles */
-a:link,
-a:visited {
-  color: #dc6903;
-}
-a:focus,
-a:hover,
-a:active {
-  color: #f9ab33;
-}
-
-a {
-  text-decoration: none;
-  border-bottom: 1px dotted;
-  padding-bottom: 0.2em;
-}
-
 /* header styles */
 header {
   color: white;
